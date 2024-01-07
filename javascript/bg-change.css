@@ -1,0 +1,17 @@
+*
+{
+    box-sizing: border-box; 
+}
+body 
+{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.whole
+{
+    height:40px;
+    width:60px; 
+}

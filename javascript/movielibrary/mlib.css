@@ -1,0 +1,40 @@
+body{
+    background-color: antiquewhite;
+}
+#mlib
+{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:50px;
+    gap:10px;
+   
+}
+#mlib title{
+    color:crimson;
+}
+.movie
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    height:300px;
+    width:200px;
+    /* border:1px solid black; */
+    border-radius: 5px;
+    /* box-shadow:5px 5px black; */
+    transition: all 1s ease;
+}
+.movie img{
+    height:220px;
+    width:200px;
+}
+.movie:hover{
+    scale:1.05;
+}
+h1
+{
+    color:crimson;
+    
+}
